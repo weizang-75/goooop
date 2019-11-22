@@ -1,0 +1,12 @@
+{
+  "name": "goop",
+  "version": "0.0.1",
+  "description": "烟草是邪恶的",
+  "scripts": {
+    "start": "clear && cd ./frontend && yarn start",
+    "serve": "clear && cd ./server && npx nodemon"
+  },
+  "repository": "git@github.com:weizang-75/goop.git",
+  "author": "weizang-75 <weizang75@gmail.com>",
+  "license": "UNLICENSED"
+}
