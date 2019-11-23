@@ -1,12 +1,18 @@
 {
   "name": "react-jumbotron",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "weizang",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.7.0",
+    "@material-ui/icons": "^4.5.1",
+    "classnames": "^2.2.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

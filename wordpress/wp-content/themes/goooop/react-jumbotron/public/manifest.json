@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
+      "src": "iconduit/apple-touch-icon-180x180.png",
       "type": "image/png",
       "sizes": "180x180"
     }

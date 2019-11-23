@@ -9,7 +9,8 @@
  * @since 1.0.0
  */
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 
 <html class="no-js" <?php language_attributes(); ?>>
 
@@ -24,19 +25,30 @@
 
 	</head>
 
-	<body <?php body_class(); ?>>
+    <body <?php body_class(); ?>>
+    <?php
+                $build_html = file_get_contents(get_template_directory() . '/react-jumbotron/build/index.html', true);
+                $body_open_tag_pos = strpos($build_html, "<body>");
+                $body_close_tag_pos = strpos($build_html, "</body>") - 50;
+                $body_html = substr($build_html, $body_open_tag_pos + 40);
+                $body_html = str_replace('src="/static/', 'src="' . get_template_directory_uri() . '/react-jumbotron/build/static/', $body_html);
+                print_r ($body_html);
+            ?>
 
-		<?php
-		wp_body_open();
-		?>
+    <div id="wordpress">
 
-        <div id="react-jumbotron">
-            <h3>React-Jumbotron<h3>
-        </div>
+        <?php wp_body_open(); ?>
+        
+        
 
 		<header id="site-header" class="header-footer-group" role="banner">
 
+        
+
 			<div class="header-inner section-inner">
+
+            
+
 
 				<div class="header-titles-wrapper">
 

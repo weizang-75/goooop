@@ -1,0 +1,9 @@
+{
+  "name": "goooop",
+  "version": "0.1.1",
+  "description": "Hong Kong based medicinal supplies",
+  "main": "index.js",
+  "repository": "git@github.com:weizang-75/goooop.git",
+  "author": "weizang-75 <weizang75@gmail.com>",
+  "license": "MIT"
+}
