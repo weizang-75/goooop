@@ -1,0 +1,9 @@
+/***** Customizer Custom CSS *****/
+
+.mh-upgrade-thumb img { border: 1px solid #ccc; }
+.mh-upgrade-title { color: #000; text-transform: uppercase; }
+.mh-upgrade-features { list-style: disc; margin: 0 15px; }
+.mh-button .button { min-width: 220px; text-align: center; }
+.mh-upgrade-button .button { color: #fff; background: #008ec2; border-color: #008ec2; }
+.customize-pane-parent #accordion-panel-mh_theme_options .accordion-section-title, #accordion-section-mh_magazine_lite_upgrade .accordion-section-title { color: #fff; background: #008ec2; border-left: 4px solid #bfdeec; }
+.rtl .customize-pane-parent #accordion-panel-mh_theme_options .accordion-section-title, .rtl #accordion-section-mh_magazine_lite_upgrade .accordion-section-title { border-right: 4px solid #bfdeec; border-left: none; }
