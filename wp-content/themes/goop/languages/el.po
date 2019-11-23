@@ -1,0 +1,846 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-18 06:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: el\n"
+"Project-Id-Version: Themes - MH Magazine lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 06:46+0000\n"
+"Last-Translator: Michael <info@mhthemes.com>\n"
+"Language-Team: Greek"
+
+#: functions.php:53
+msgid "Main Navigation"
+msgstr "Κύρια Πλοήγηση"
+
+#: functions.php:113 sidebar.php:8 sidebar.php:12
+msgid "Sidebar"
+msgstr "Πλευρική στήλη"
+
+#: functions.php:113
+msgid "Widget area (sidebar left/right) on single posts, pages and archives."
+msgstr ""
+"Περιοχή μικροεφαρμογών (αριστερή/δεξιά πλευρική στήλη) σε ξεχωριστά άρθρα, "
+"σελίδες και αρχεία."
+
+#: functions.php:114
+#, php-format
+msgctxt "widget area name"
+msgid "Home %d - Full Width"
+msgstr "Home %d - Πλήρες πλάτος"
+
+#: functions.php:114 functions.php:115 functions.php:116 functions.php:117
+#: functions.php:118 functions.php:119
+msgid "Widget area on homepage."
+msgstr "Περιοχή μικροεφαρμογών στην αρχική."
+
+#: functions.php:115 functions.php:118
+#, php-format
+msgctxt "widget area name"
+msgid "Home %d - 2/3 Width"
+msgstr "Home %d - 2/3 Πλάτους"
+
+#: functions.php:116 functions.php:117 functions.php:119 homepage.php:19
+#: homepage.php:23 homepage.php:37 homepage.php:41 homepage.php:60
+#: homepage.php:64
+#, php-format
+msgctxt "widget area name"
+msgid "Home %d - 1/3 Width"
+msgstr "Home %d - 1/3 Πλάτους"
+
+#: functions.php:120 functions.php:121
+#, php-format
+msgctxt "widget area name"
+msgid "Posts %d - Advertisement"
+msgstr "Δημοσιεύσεις %d - Διαφημίσεις"
+
+#: functions.php:120
+msgid "Widget area above single post content."
+msgstr "Περιοχή μικροεφαρμογών πάνω από το άρθρο."
+
+#: functions.php:121
+msgid "Widget area below single post content."
+msgstr "Περιοχή μικροεφαρμογών κάτω από το άρθρο."
+
+#: functions.php:122 functions.php:123 functions.php:124 functions.php:125
+#, php-format
+msgctxt "widget area name"
+msgid "Footer %d - 1/4 Width"
+msgstr "Υποσέλιδο %d - 1/4 Πλάτους"
+
+#: functions.php:122 functions.php:123 functions.php:124 functions.php:125
+msgid "Widget area in footer."
+msgstr "Περιοχή μικροεφαρμογών στο υποσέλιδο."
+
+#: 404.php:7 includes/mh-compatibility.php:44
+msgid "Page not found (404)"
+msgstr "Η σελίδα δε βρέθηκε (404)"
+
+#: 404.php:12 content-none.php:14
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Φαίνεται ότι δε βρήκαμε αυτό που ζητούσατε. Αν θέλετε, δοκιμάστε την "
+"αναζήτηση."
+
+#: 404.php:16 content-none.php:19
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: 404.php:22 content-none.php:25
+msgid "Recent Articles"
+msgstr "Πρόσφατα άρθρα"
+
+#: content-none.php:4
+msgid "Nothing found"
+msgstr "Δε βρέθηκε τίποτα"
+
+#: content-none.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Η αναζήτηση δεν βρήκε κάτι με τους όρους που θέσατε. Θέλετε να δοκιμάσετε "
+"διαφορετικούς όρους;"
+
+#: comments.php:12
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d Σχόλιο"
+msgstr[1] "%d Σχόλια"
+
+#: comments.php:22 includes/mh-custom-functions.php:317
+#: includes/mh-custom-functions.php:330
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: comments.php:22 includes/mh-custom-functions.php:318
+#: includes/mh-custom-functions.php:330
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: comments.php:30
+#, php-format
+msgid "%d Trackback / Pingback"
+msgid_plural "%d Trackbacks / Pingbacks"
+msgstr[0] "%d Trackback / Pingback"
+msgstr[1] "%d Trackbacks / Pingbacks"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι απενεργοποιημένα."
+
+#: comments.php:50
+msgid "Be the first to comment"
+msgstr "Κάντε το πρώτο σχόλιο"
+
+#: comments.php:57
+msgid "Leave a Reply"
+msgstr "Υποβολή απάντησης"
+
+#: comments.php:58
+msgid "Your email address will not be published."
+msgstr "Η ηλ. διεύθυνσή σας δεν δημοσιεύεται."
+
+#: comments.php:60
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: content-loop.php:8 content-large.php:8
+#: includes/widgets/mh-posts-focus.php:65
+#: includes/widgets/mh-posts-focus.php:93
+#: includes/widgets/mh-posts-stacked.php:60
+#: includes/widgets/mh-posts-stacked.php:90 includes/widgets/mh-slider.php:52
+#: includes/widgets/mh-slider.php:54 includes/widgets/mh-custom-posts.php:58
+msgid "No Image"
+msgstr "Χωρίς εικόνα"
+
+#: search.php:8 includes/mh-compatibility.php:46
+#, php-format
+msgid "Search Results for %s"
+msgstr "Αποτελέσματα αναζήτησης για %s"
+
+#: content-author-box.php:11
+#, php-format
+msgid "About %s"
+msgstr "Περί %s"
+
+#: content-author-box.php:15
+#, php-format
+msgid "More articles written by %s"
+msgstr "Περισσότερα άρθρα από %s"
+
+#: content-author-box.php:16
+#, php-format
+msgid "%s Article"
+msgid_plural "%s Articles"
+msgstr[0] "%s Άρθρο"
+msgstr[1] "%s Άρθρα"
+
+#: footer.php:5
+#, php-format
+msgid "Copyright &copy; %1$s | WordPress Theme by %2$s"
+msgstr "Όλα τα δικαιώματα &copy; %1$s | Θέμα του WordPress από %2$s"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "Πλήρες πλάτος"
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Αρχική Σελίδα"
+
+#: homepage.php:23 homepage.php:41 homepage.php:64 sidebar.php:12
+#, php-format
+msgid ""
+"Please navigate to %1$1s in your WordPress dashboard and add some widgets "
+"into the %2$2s widget area."
+msgstr ""
+"Παρακαλώ πηγαίνετε στο  %1$1s στον πίνακα ελέγχου του WordPress και "
+"προσθέστε μερικές μικροεφαρμογές στη %2$2s περιοχή μικροεφαρμογών."
+
+#: homepage.php:23 homepage.php:41 homepage.php:64 sidebar.php:12
+msgid "Appearance &#8594; Widgets"
+msgstr "Εμφάνιση &#8594; Μικροεφαρμογές"
+
+#: includes/mh-custom-functions.php:91
+#, php-format
+msgid "Articles by %s"
+msgstr "Άρθρα από %s"
+
+#: includes/mh-custom-functions.php:186 includes/mh-custom-functions.php:191
+msgid "Back to article"
+msgstr "Πίσω στο άρθρο"
+
+#: includes/mh-custom-functions.php:188 includes/mh-custom-functions.php:195
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: includes/mh-custom-functions.php:202 includes/mh-custom-functions.php:205
+msgid "Next"
+msgstr "Επόμενο"
+
+#: includes/mh-custom-functions.php:260
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/mh-custom-functions.php:266
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας περιμένει έγκριση."
+
+#: includes/mh-custom-functions.php:273
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: includes/mh-custom-functions.php:291
+msgid "Name "
+msgstr "Όνομα "
+
+#: includes/mh-custom-functions.php:292
+msgid "Email "
+msgstr "Ηλ. διεύθυνση "
+
+#: includes/mh-custom-functions.php:293
+msgid "Website"
+msgstr "Δικτυακός τόπος"
+
+#: includes/mh-custom-functions.php:294
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: includes/mh-customizer.php:13 admin/admin.php:147
+msgid "MH Magazine Pro"
+msgstr "MH Magazine Pro"
+
+#: includes/mh-customizer.php:16 admin/admin.php:150
+msgid ""
+"If you like the free version of this theme, you will LOVE the full version "
+"of MH Magazine which includes unique custom widgets, additional features and "
+"more useful options to customize your website."
+msgstr ""
+"Εάν σας αρέσει η δωρεάν έκδοση θα ΑΓΑΠΗΣΕΤΕ την πλήρη έκδοση του MH Magazine,"
+" η οποία περιλαμβάνει μοναδικά προσαρμοσμένες μικροεφαρμογές, πρόσθετα "
+"στοιχεία και πολλές χρήσιμες επιλογές για να προσαρμόσετε την ιστοσελίδα σας."
+
+#: includes/mh-customizer.php:19
+msgid "Additional Features:"
+msgstr "Πρόσθετα χαρακτηριστικά:"
+
+#: includes/mh-customizer.php:23
+msgid "Options to modify color scheme"
+msgstr "Επιλογές για τροποποίηση του χρωματικού συνδυασμού"
+
+#: includes/mh-customizer.php:26
+msgid "Typography options"
+msgstr "Επιλογές γραφής"
+
+#: includes/mh-customizer.php:29
+msgid "Several additional widget areas"
+msgstr "Μερικές πρόσθετες περιοχές μικροεφαρμογών"
+
+#: includes/mh-customizer.php:32
+msgid "Additional custom widgets"
+msgstr "Πρόσθετες προσαρμοσμένες μικροεφαρμογές"
+
+#: includes/mh-customizer.php:35
+msgid "Extended layout options"
+msgstr "Εκτεταμένες επιλογές διάταξης"
+
+#: includes/mh-customizer.php:38
+msgid "Additional custom menu slots"
+msgstr "Πρόσθετες θέσεις προσαρμοσμένου μενού"
+
+#: includes/mh-customizer.php:41
+msgid "Advanced advertising options"
+msgstr "Προχωρημένες επιλογές διαφήμισης"
+
+#: includes/mh-customizer.php:44
+msgid "Social buttons, related articles, ..."
+msgstr "Κουμπιά κοινωνικής δικτύωσης, σχετικά άρθρα, ..."
+
+#: includes/mh-customizer.php:47
+msgid "News ticker and many more..."
+msgstr "Μπάρα ειδήσεων και πολλά περισσότερα..."
+
+#: includes/mh-customizer.php:52 admin/admin.php:55 admin/admin.php:154
+#: admin/admin.php:311
+msgid "Upgrade to MH Magazine Pro"
+msgstr "Αναβαθμίστε στο MH Magazine Pro"
+
+#: includes/mh-customizer.php:57 admin/admin.php:168
+msgid "Theme Demos"
+msgstr "Demos του θέματος"
+
+#: includes/mh-customizer.php:62 admin/admin.php:100 admin/admin.php:171
+msgid "MH Themes Showcase"
+msgstr "Παρουσίαση των MH Themes"
+
+#: includes/mh-customizer.php:67 admin/admin.php:114 admin/admin.php:121
+msgid "Theme Documentation"
+msgstr "Τεκμηρίωση θέματος"
+
+#: includes/mh-customizer.php:72 admin/admin.php:97 admin/admin.php:124
+#: admin/admin.php:303
+msgid "Support Forum"
+msgstr "Φόρουμ υποστήριξης"
+
+#: includes/mh-customizer.php:80 admin/admin.php:131 admin/admin.php:277
+msgid "Theme Options"
+msgstr "Επιλογές θέματος"
+
+#: includes/mh-customizer.php:84
+msgid "General"
+msgstr "Γενικά"
+
+#: includes/mh-customizer.php:85
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: includes/mh-customizer.php:86
+msgid "More Features &amp; Options"
+msgstr "Περισσότερα χαρακτηριστικά &amp; επιλογές"
+
+#: includes/mh-customizer.php:99
+msgid "Custom excerpt length in words"
+msgstr "Προσαρμοσμένο μέγεθος αποσπάσματος σε λέξεις"
+
+#: includes/mh-customizer.php:100
+msgid "Custom excerpt more text"
+msgstr "Προσαρμοσμένο μήνυμα για 'περισσότερα' στο απόσπασμα"
+
+#: includes/mh-customizer.php:101
+msgid "Position of default sidebar"
+msgstr "Θέση της προεπιλεγμένης πλευρικής στήλης"
+
+#: includes/mh-customizer.php:101 includes/mh-customizer.php:125
+msgid "Left"
+msgstr "Αριστερά"
+
+#: includes/mh-customizer.php:101 includes/mh-customizer.php:126
+msgid "Right"
+msgstr "Δεξιά"
+
+#: includes/mh-customizer.php:102
+msgid "Author Box"
+msgstr "Πλαίσιο αρθρογράφου"
+
+#: includes/mh-customizer.php:102 includes/mh-customizer.php:103
+#: includes/mh-customizer.php:127
+msgid "Enable"
+msgstr "Διαθέσιμο"
+
+#: includes/mh-customizer.php:102 includes/mh-customizer.php:103
+#: includes/mh-customizer.php:128
+msgid "Disable"
+msgstr "Απενεργοποιήστε την"
+
+#: includes/mh-customizer.php:103
+msgid "Post/Attachment Navigation"
+msgstr "Πλοήγηση άρθρου/επισυναπτόμενου"
+
+#: includes/mh-compatibility.php:26
+#, php-format
+msgctxt "post author"
+msgid "Articles by %s"
+msgstr "Άρθρα από %s"
+
+#: includes/mh-compatibility.php:38
+msgid "Archives"
+msgstr "Αρχείο"
+
+#: admin/admin.php:26
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Η ενέργεια απέτυχε. Παρακαλώ ανανεώστε τη σελίδα και προσπαθήστε ξανά."
+
+#: admin/admin.php:29
+msgid "You do not have the necessary permission to perform this action."
+msgstr "Δεν έχετε τα απαραίτητα δικαιώματα για αυτή την ενέργεια."
+
+#: admin/admin.php:46
+msgid "Dismiss this notice."
+msgstr "Κλείστε αυτή την ειδοποίηση."
+
+#: admin/admin.php:49
+#, php-format
+msgid ""
+"Thanks for using %1$s! To get started please make sure you visit our "
+"%2$swelcome page%3$s."
+msgstr ""
+"Ευχαριστούμε που χρησιμοποιείτε το %1$s! Για να ξεκινήσετε παρακαλούμε "
+"επισκεφτείτε την %2$sσελίδα καλωσορίσματος%3$s."
+
+#: admin/admin.php:52 admin/admin.php:107
+#, php-format
+msgid "Get Started with %s"
+msgstr "Ξεκινήστε με %s"
+
+#: admin/admin.php:66
+msgid "Welcome to MH Magazine lite"
+msgstr "Καλώς ήλθατε στο MH Magazine lite"
+
+#: admin/admin.php:66
+msgid "Theme Info"
+msgstr "Πληροφορίες θέματος"
+
+#: admin/admin.php:76
+#, php-format
+msgid "Welcome to %1$1s %2$2s"
+msgstr "Καλώς ήλθατε στο %1$1s %2$2s"
+
+#: admin/admin.php:80
+msgid "Theme Screenshot"
+msgstr "Εικόνα θέματος"
+
+#: admin/admin.php:89
+msgid "Important Links:"
+msgstr "Σημαντικοί σύνδεσμοι:"
+
+#: admin/admin.php:91
+msgid "Theme Info Page"
+msgstr "Σελίδα πληροφοριών για το θέμα"
+
+#: admin/admin.php:94
+msgid "Support Center"
+msgstr "Κέντρο υποστήριξης"
+
+#: admin/admin.php:117
+#, php-format
+msgid ""
+"Need any help with configuring %s? The documentation for this theme includes "
+"all theme related information that is needed to get your site up and running "
+"in no time. In case you have any additional questions, feel free to reach "
+"out in the theme support forums on WordPress.org."
+msgstr ""
+"Χρειάζεστε βοήθεια με τη παραμετροποίηση του %s; Η τεκμηρίωση για αυτό το "
+"θέμα περιλαμβάνει όλες τις σχετικές πληροφορίες που χρειάζονται για να "
+"ξεκινήσετε και να λειτουργήσετε την ιστοσελίδα σας. Σε περίπτωση που έχετε "
+"περισσότερες ερωτήσεις, μη διστάσετε να απευθυνθείτε στο forum υποστήριξης "
+"του θέματος στο WordPress.org."
+
+#: admin/admin.php:134
+#, php-format
+msgid ""
+"%s supports the Theme Customizer for all theme settings. Click \"Customize "
+"Theme\" to open the Customizer now."
+msgstr ""
+"%s υποστηρίζει τον Προσαρμογέα Θεμάτων για όλες τις ρυθμίσεις του θέματος. "
+"Κάντε κλικ στη \"Προσαρμογή Θέματος\" για να ανοίξετε τον Προσαρμογέα τώρα."
+
+#: admin/admin.php:138
+msgid "Customize Theme"
+msgstr "Προσαρμογή θέματος"
+
+#: admin/admin.php:161
+msgid "MH Magazine Theme Demos"
+msgstr "Παρουσιάσεις του MH Magazine θέματος"
+
+#: admin/admin.php:164
+msgid ""
+"The premium version of MH Magazine includes lots of additional features and "
+"options to customize your website. We have created several theme demos as "
+"examples in order to show what is possible with this flexible magazine theme."
+msgstr ""
+"Η premium έκδοση του MH Magazine περιλαμβάνει πολλά πρόσθετα στοιχεία και "
+"επιλογές για να προσαρμόσετε την ιστοσελίδα σας. Δημιουργήσαμε μερικά demos "
+"να δείτε, ως παραδείγματα του τι είναι δυνατό να γίνει με αυτό το ευέλικτο "
+"θέμα."
+
+#: admin/admin.php:181
+msgid "Upgrade to MH Magazine for more awesome features:"
+msgstr "Αναβαθμίστε το MH Magazine για περισσότερα εκπληκτικά χαρακτηριστικά:"
+
+#: admin/admin.php:186
+msgid "Features"
+msgstr "Χαρακτηριστικά"
+
+#. Theme Name of the plugin/theme
+#: admin/admin.php:187
+msgid "MH Magazine lite"
+msgstr "MH Magazine lite"
+
+#: admin/admin.php:188
+msgid "MH Magazine"
+msgstr "MH Magazine"
+
+#: admin/admin.php:193
+msgid "Theme Price"
+msgstr "Τιμή θέματος"
+
+#: admin/admin.php:194
+msgid "Free"
+msgstr "Δωρεάν"
+
+#: admin/admin.php:197
+msgid "View Pricing"
+msgstr "Δείτε τιμές"
+
+#: admin/admin.php:202
+msgid "Site Width"
+msgstr "Πλάτος ιστοσελίδας"
+
+#: admin/admin.php:203
+msgid "max. 1080px"
+msgstr "μέγιστο 1080px"
+
+#: admin/admin.php:204
+msgid "max. 1080px / 1431px"
+msgstr "μέγιστο 1080px / 1431px"
+
+#: admin/admin.php:207
+msgid "Responsive Layout"
+msgstr "Ανταποκρινόμενη διάταξη"
+
+#: admin/admin.php:212
+msgid "Extended Layout Options"
+msgstr "Εκτεταμένες επιλογές διάταξης"
+
+#: admin/admin.php:217
+msgid "Second Sidebar"
+msgstr "Δεύτερη πλευρική στήλη"
+
+#: admin/admin.php:222
+msgid "Homepage Template"
+msgstr "Πρότυπο αρχικής σελίδας"
+
+#: admin/admin.php:227
+msgid "Total Widget Areas"
+msgstr "Συνολικές περιοχές μικροεφαρμογών"
+
+#: admin/admin.php:228
+msgid "12"
+msgstr "12"
+
+#: admin/admin.php:229
+msgid "26"
+msgstr "26"
+
+#: admin/admin.php:232
+msgid "Custom Widgets"
+msgstr "Προσαρμοσμένες μικροεφαρμογές"
+
+#: admin/admin.php:233
+msgid "6 (Basic Features)"
+msgstr "6 (Βασικά χαρακτηριστικά)"
+
+#: admin/admin.php:234
+msgid "23 (Full Features)"
+msgstr "23 (Πλήρη χαρακτηριστικά)"
+
+#: admin/admin.php:237
+msgid "Custom Menus"
+msgstr "Προσαρμοσμένα μενού"
+
+#: admin/admin.php:238
+msgid "1"
+msgstr "1"
+
+#: admin/admin.php:239
+msgid "5"
+msgstr "5"
+
+#: admin/admin.php:242
+msgid "Transparent Header"
+msgstr "Διαφανής κεφαλίδα"
+
+#: admin/admin.php:247
+msgid "jQuery News Ticker"
+msgstr "jQuery Λωρίδα ειδήσεων"
+
+#: admin/admin.php:252
+msgid "FlexSlider 2 with Touch Support"
+msgstr "FlexSlider 2 με υποστήριξη αφής"
+
+#: admin/admin.php:257
+msgid "Built-in Breadcrumb Navigation"
+msgstr "Ενσωματωμένη πλοήγηση με Breadcrumb"
+
+#: admin/admin.php:262
+msgid "Built-in Social Buttons"
+msgstr "Ενσωματωμένα κουμπιά κοινωνικής δικτύωσης"
+
+#: admin/admin.php:267
+msgid "Related Posts Feature"
+msgstr "Χαρακτηριστικό σχετικών αναρτήσεων"
+
+#: admin/admin.php:272
+msgid "Advertising Options"
+msgstr "Επιλογής διαφήμισης"
+
+#: admin/admin.php:278
+msgid "Basic Options"
+msgstr "Βασικές επιλογές"
+
+#: admin/admin.php:282
+msgid "Color Options"
+msgstr "Επιλογές χρώματος"
+
+#: admin/admin.php:287
+msgid "Google Webfonts Collection"
+msgstr "Συλλογή Webfonts της Google"
+
+#: admin/admin.php:292
+msgid "Typography Options"
+msgstr "Επιλογές γραφής"
+
+#: admin/admin.php:297
+msgid "Extended Features"
+msgstr "Εκτεταμένα χαρακτηριστικά"
+
+#: admin/admin.php:302
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: admin/admin.php:304
+msgid "Personal E-Mail Support"
+msgstr "Προσωπική υποστήριξη μέσω E-Mail"
+
+#: admin/admin.php:321
+#, php-format
+msgid "%1$1s is proudly brought to you by %2$2s. If you like %3$3s: %4$4s."
+msgstr "%1$1s σας προσφέρεται περήφανα από %2$2s. Εάν σας αρέσει %3$3s: %4$4s."
+
+#: admin/admin.php:321
+msgid "Rate this theme"
+msgstr "Βαθμολογήστε αυτό το θέμα"
+
+#: includes/widgets/mh-posts-focus.php:8
+msgctxt "widget name"
+msgid "MH Posts Focus [lite]"
+msgstr "MH Posts Focus [lite]"
+
+#: includes/widgets/mh-posts-focus.php:11
+msgid ""
+"MH Posts Focus widget to display 5 posts with focus on large post in the "
+"middle (if placed in full-width widget area)."
+msgstr ""
+"Μικροεφαρμογή MH εστιασμένων άρθρων για προβολή 5 άρθρων με εστίαση σε ένα "
+"μεγάλο άρθρο στη μέση (αν τοποθετηθεί σε μικροεφαρμογή πλήρους περιοχής)."
+
+#: includes/widgets/mh-posts-focus.php:153
+#: includes/widgets/mh-posts-stacked.php:142
+#: includes/widgets/mh-custom-posts.php:112 includes/widgets/mh-tabbed.php:93
+#: includes/widgets/mh-posts-large.php:83
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: includes/widgets/mh-posts-focus.php:157
+#: includes/widgets/mh-posts-stacked.php:146 includes/widgets/mh-slider.php:114
+#: includes/widgets/mh-custom-posts.php:116
+#: includes/widgets/mh-posts-large.php:87
+msgid "Select a Category:"
+msgstr "Επιλέξτε μια κατηγορία:"
+
+#: includes/widgets/mh-posts-focus.php:159
+#: includes/widgets/mh-posts-stacked.php:148 includes/widgets/mh-slider.php:116
+#: includes/widgets/mh-custom-posts.php:118
+#: includes/widgets/mh-posts-large.php:89
+msgid "All"
+msgstr "Όλα"
+
+#: includes/widgets/mh-posts-focus.php:165
+#: includes/widgets/mh-posts-stacked.php:154 includes/widgets/mh-slider.php:122
+#: includes/widgets/mh-custom-posts.php:124
+#: includes/widgets/mh-posts-large.php:95
+msgid "Select a category to display posts from."
+msgstr "Επιλέξτε μια κατηγορία για την εμφάνιση των άρθρων."
+
+#: includes/widgets/mh-posts-focus.php:168
+#: includes/widgets/mh-posts-stacked.php:157 includes/widgets/mh-slider.php:125
+#: includes/widgets/mh-custom-posts.php:127
+#: includes/widgets/mh-posts-large.php:98
+msgid "Filter Posts by Tags (e.g. lifestyle):"
+msgstr "Φιλτράρισμα άρθρων βάσει ετικετών (π.χ. lifestyle):"
+
+#: includes/widgets/mh-posts-focus.php:172
+#: includes/widgets/mh-posts-stacked.php:161 includes/widgets/mh-slider.php:133
+#: includes/widgets/mh-custom-posts.php:135
+#: includes/widgets/mh-posts-large.php:106
+msgid "Skip Posts (max. 50):"
+msgstr "Παράβλεψη άρθρων (μέγ. 50):"
+
+#: includes/widgets/mh-posts-focus.php:176
+#: includes/widgets/mh-posts-stacked.php:165 includes/widgets/mh-slider.php:148
+#: includes/widgets/mh-custom-posts.php:143 includes/widgets/mh-tabbed.php:97
+#: includes/widgets/mh-posts-large.php:110
+msgid "Info:"
+msgstr "Πληροφορίες:"
+
+#: includes/widgets/mh-posts-focus.php:176
+#: includes/widgets/mh-posts-stacked.php:165 includes/widgets/mh-slider.php:148
+#: includes/widgets/mh-custom-posts.php:143 includes/widgets/mh-tabbed.php:97
+#: includes/widgets/mh-posts-large.php:110
+msgid ""
+"This is the lite version of this widget with basic features. More features "
+"and options are available in the premium version of MH Magazine."
+msgstr ""
+"Αυτή είναι η lite έκδοση της μικροεφαρμογής με τις βασικές λειτουργίες. "
+"Περισσότερες λειτουργίες και επιλογές είναι διαθέσιμες στην πλήρη έκδοση του "
+"MH Magazine."
+
+#: includes/widgets/mh-posts-stacked.php:8
+msgctxt "widget name"
+msgid "MH Posts Stacked [lite]"
+msgstr "MH Posts Stacked [lite]"
+
+#: includes/widgets/mh-posts-stacked.php:11
+msgid ""
+"MH Posts Stacked widget to display 5 stacked posts nicely including "
+"thumbnail, title and meta data."
+msgstr ""
+"MH αναρτήσεις σε στοίβα [lite] μικροεφαρμογή για να προβάλει 5 στοιβαγμένες "
+"δημοσιεύσεις μαζί με τις μικρογραφίες, τους τίτλους και τα μεταδεδομένα."
+
+#: includes/widgets/mh-slider.php:8
+msgctxt "widget name"
+msgid "MH Slider Widget [lite]"
+msgstr "MH Slider Widget [lite]"
+
+#: includes/widgets/mh-slider.php:11
+msgid "Slider widget for use on homepage template."
+msgstr "Μικροεφαρμογή κύλισης για χρήση στο πρότυπο της αρχικής σελίδας."
+
+#: includes/widgets/mh-slider.php:129 includes/widgets/mh-custom-posts.php:131
+#: includes/widgets/mh-posts-large.php:102
+msgid "Post Count (max. 50):"
+msgstr "Καταμέτρηση άρθρων (μέγ. 50):"
+
+#: includes/widgets/mh-slider.php:137
+msgid "Image size:"
+msgstr "Μέγεθος εικόνας:"
+
+#: includes/widgets/mh-slider.php:139
+msgid "Normal"
+msgstr "Φυσιολογική"
+
+#: includes/widgets/mh-slider.php:140
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: includes/widgets/mh-slider.php:145 includes/widgets/mh-custom-posts.php:140
+msgid "Ignore Sticky Posts"
+msgstr "Αγνόηση 'κολλημένων' άρθρων"
+
+#: includes/widgets/mh-custom-posts.php:8
+msgctxt "widget name"
+msgid "MH Custom Posts [lite]"
+msgstr "MH Custom Posts [lite]"
+
+#: includes/widgets/mh-custom-posts.php:11
+msgid "Custom Posts Widget to display posts based on categories or tags."
+msgstr ""
+"Μικροεφαρμογή προσαρμοσμένων άρθρων για τη παρουσίαση άρθρων βάσει "
+"κατηγορίας ή ετικετών."
+
+#: includes/widgets/mh-tabbed.php:8
+msgctxt "widget name"
+msgid "MH Tabbed [lite]"
+msgstr "MH Tabbed [lite]"
+
+#: includes/widgets/mh-tabbed.php:11
+msgid "MH Tabbed widget showing your latest posts, tags and comments."
+msgstr ""
+"MH στοιχισμένο - μικροεφαρμογή για εμφάνιση των πρόσφατων δημοσιεύσεων, "
+"ετικετών και σχολίων."
+
+#: includes/widgets/mh-tabbed.php:76
+msgid "No comments found"
+msgstr "Δε βρέθηκαν σχόλια"
+
+#: includes/widgets/mh-posts-large.php:8
+msgctxt "widget name"
+msgid "MH Posts Large [lite]"
+msgstr "MH Posts Large [lite]"
+
+#: includes/widgets/mh-posts-large.php:11
+msgid ""
+"MH Posts Large widget to display posts (large-sized) including thumbnail "
+"images."
+msgstr ""
+"ΜΗ δημοσιεύσεις μεγάλη μικροεφαρμογή για εμφάνιση δημοσιεύσεων (μεγάλου "
+"μεγέθους) συμπεριλαμβανομένων και των εικόνων σε μικρογραφίες."
+
+#. Description of the plugin/theme
+msgid ""
+"MH Magazine lite is one of the most popular free responsive magazine, news, "
+"newspaper and blog WordPress themes for modern online magazines, dynamic "
+"news websites, professional blogs and other editorial websites. This free "
+"magazine theme is fast, secure, SEO friendly and perfectly suitable for "
+"topics like international news, politics, lifestyle, fashion, business, "
+"sports, gadgets, travel or anything else. If you would like to gain access "
+"to more awesome features, flexible custom widgets and useful options to "
+"customize your website, you can upgrade to the premium version of MH "
+"Magazine and take your website to the next level. You can also learn more "
+"about this dynamic magazine WordPress theme on the MH Themes website."
+msgstr ""
+"Το MH Magazine lite είναι ένα από τα δημοφιλέστερα δωρεάν ανταποκριμόμενα "
+"θέματα για περιοδικά, ειδήσεις, εφημερίδες και ιστολόγια του WordPress για "
+"τα σύγχρονα περιοδικά, τις δυναμικές ιστοσελίδες ειδήσεων, τα επαγγελματικά "
+"blogs και άλλους ιστοχώρους σύνταξης. Αυτό το δωρεάν θέμα για περιοδικά "
+"είναι γρήγορο, ασφαλές, φιλικό προς SEO και είναι ιδανικό για θέματα όπως "
+"διεθνή νέα, πολιτική, τρόπο ζωής, μόδα, επιχειρήσεις, αθλητικά, gadgets, "
+"ταξίδια ή οτιδήποτε άλλο. Εάν θέλετε να αποκτήσετε πρόσβαση σε πιο "
+"συναρπαστικές λειτουργίες, ευέλικτες προσαρμοσμένες μικροεφαρμογές και "
+"χρήσιμες επιλογές για να προσαρμόσετε τον ιστότοπό σας, μπορείτε να κάνετε "
+"αναβάθμιση στην έκδοση Premium του MH Magazine και να ανεβάσετε τον ιστότοπό "
+"σας στο επόμενο επίπεδο. Μπορείτε επίσης να μάθετε περισσότερα σχετικά για "
+"αυτό το δυναμικό περιοδικό του WordPress στην ιστοσελίδα του MH Themes."
+
+#. Theme URI of the plugin/theme
+msgid "https://www.mhthemes.com/themes/mh/magazine-lite/"
+msgstr "https://www.mhthemes.com/themes/mh/magazine-lite/"
+
+#. Author of the plugin/theme
+msgid "MH Themes"
+msgstr "MH Themes"
+
+#. Author URI of the plugin/theme
+msgid "https://www.mhthemes.com/"
+msgstr "https://www.mhthemes.com/"

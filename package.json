@@ -6,7 +6,7 @@
     "start": "clear && cd ./frontend && yarn start",
     "serve": "clear && cd ./server && npx nodemon"
   },
-  "repository": "git@github.com:weizang-75/goop.git",
+  "repository": "https://github.com/weizang-75/goop",
   "author": "weizang-75 <weizang75@gmail.com>",
   "license": "UNLICENSED"
 }
