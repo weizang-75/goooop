@@ -30,6 +30,10 @@
 		wp_body_open();
 		?>
 
+        <div id="react-jumbotron">
+            <h3>React-Jumbotron<h3>
+        </div>
+
 		<header id="site-header" class="header-footer-group" role="banner">
 
 			<div class="header-inner section-inner">
