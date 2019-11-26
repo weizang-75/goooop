@@ -1,6 +1,6 @@
 {
-  "name": "react-jumbotron",
-  "version": "0.1.2",
+  "name": "jumbotron",
+  "version": "0.2.0",
   "author": "weizang",
   "license": "MIT",
   "dependencies": {

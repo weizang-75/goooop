@@ -27,11 +27,11 @@
 
     <body <?php body_class(); ?>>
     <?php
-                $build_html = file_get_contents(get_template_directory() . '/react-jumbotron/build/index.html', true);
+                $build_html = file_get_contents(get_template_directory() . '/jumbotron/build/index.html', true);
                 $body_open_tag_pos = strpos($build_html, "<body>");
                 $body_close_tag_pos = strpos($build_html, "</body>") - 50;
                 $body_html = substr($build_html, $body_open_tag_pos + 40);
-                $body_html = str_replace('src="/static/', 'src="' . get_template_directory_uri() . '/react-jumbotron/build/static/', $body_html);
+                $body_html = str_replace('src="/static/', 'src="' . get_template_directory_uri() . '/jumbotron/build/static/', $body_html);
                 print_r ($body_html);
             ?>
 

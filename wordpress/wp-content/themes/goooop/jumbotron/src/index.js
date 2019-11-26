@@ -16,7 +16,7 @@ ReactDOM.render(
   <MuiThemeProvider theme={createMuiTheme(muiTheme)}>
     <ReactJumbotron />
   </MuiThemeProvider>,
-  document.getElementById("react-jumbotron")
+  document.getElementById("jumbotron")
 );
 
 serviceWorker.register();
